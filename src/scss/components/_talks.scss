@@ -8,6 +8,7 @@
 
     .talk__speaker {
       width : 100%;
+
     }
   }
 
@@ -17,12 +18,19 @@
 
   &__speaker {
     flex: none;
-    width: 30%;
+    width: 20%;
     margin-right : 1rem;
+	  display: none;
+	  @include from(m){
+		  display: block;
+	  }
   }
 
   &__info {
-    width: calc(70% - 1rem);
+    width: calc(100%);
+	  @include from(m){
+		  width: calc(80% - 1rem);
+	  }
   }
 
   p {
@@ -82,19 +90,19 @@
       display : block;
     }
 
-    &::after {
-      content       : "";
-      display       : block;
-      position      : absolute;
-      width         : .6rem;
-      height        : .6rem;
-      border        : 1px solid;
-      background    : #E7F9FF;
-      border-radius : 50%;
-      right         : -2.3rem;
-      top           : 50%;
-      transform     : translateY(-50%);
-    }
+    //&::after {
+    //  content       : "";
+    //  display       : block;
+    //  position      : absolute;
+    //  width         : 0.6rem;
+    //  height        : .6rem;
+    //  border        : 1px solid;
+    //  background    : #E7F9FF;
+    //  border-radius : 50%;
+    //  right         : -2.3rem;
+    //  top           : 50%;
+    //  transform     : translateY(-50%);
+    //}
   }
 }
 

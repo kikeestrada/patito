@@ -9,7 +9,11 @@
 	&.main-banner--accent    { background : $color-accent 	}
 	&.main-banner--dark      { background : $color-dark   	}
 	&.diagonal {
-		clip-path 		: polygon(0 0, 100% 0, 100% 100%, 0 84%);
+		//clip-path 		: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+		clip-path 		:  polygon(0 0, 100% 0, 100% 100%, 0 85%);
+	}
+	&.diagonal-inverse {
+		clip-path 		: polygon(0 0, 100% 0, 100% 100%, 0 85%);
 	}
 
 	// Separación del contenido

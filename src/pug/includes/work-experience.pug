@@ -1,0 +1,64 @@
+mixin user(name,avatar,countryCode, country)
+	.user
+		.user__avatar
+			img(src=`/assets/img/${avatar}`)
+		.user__data
+			.user__name=name
+			.user__country
+				img(src=`/assets/img/icon-flag-${countryCode}.svg`).user__flag
+				=country
+
+div(class='ed-container')
+	div(class='ed-item')
+		h2 Work Experience
+section.l-section.diagonal-section
+	.ed-grid.cols-l-12.diagonal-section__content
+		div.span-l-2
+		div.home-users.span-l-9
+			// Presentación
+			.talk-break.l-section
+				.talk__hour Nov 2018 <br> Currently
+				span TrigalMedia
+
+			// Charla 1 - Jon
+			.talk.l-section
+				.talk__hour
+				.talk__speaker
+					+user('Description: ','icon-right.svg','', '')
+				.talk__info
+					h3 &nbspFront End Dev
+					p I give trainings in some technical institutes: CyberU, I support and maintain some projects
+						|developed by me: AsesoresPyme, CyberU, AEA Producciones.
+
+			// Coffe break
+			.talk-break.l-section.second
+				.talk__hour Feb 2016 <br> Oct 2018
+				span Prime Ideas
+
+			// Charla 1 - Jon
+			.talk.l-section
+				.talk__hour
+				.talk__speaker
+					+user('Description: ','icon-right.svg','', '')
+				.talk__info
+					h3 &nbspFront End Dev
+					p I worked as Team Lead. We develop for betting sites. I enjoyed giving training
+						|for junior level programmers implementing my development practices as company standards and working in
+						|order the project delivery time was improved. I also worked in the requirements stage, UX and UI design,
+						|creation of white frames, mockups and layout
+
+			// Premiación
+			.talk-break.l-section.third
+				.talk__hour July 2012 <br> Oct 2015
+				span Experian Marketing Services
+			// Charla 1 - Jon
+			.talk.l-section
+				.talk__hour
+				.talk__speaker
+					+user('Description: ','icon-right.svg','', '')
+				.talk__info
+					h3 &nbspFront End Dev
+					p I worked on a Front-End and Emails development team. I trained new
+						|developers besides my work as a coder. I developed a training plan that allowed the growth of the equipment
+						|and its capacity to produce in volume. I also worked in the requirements stage, UX and UI design, creation of
+						|white frames, mockups and layout.

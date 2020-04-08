@@ -3,11 +3,15 @@
   align-items: center;
 
   &__avatar {
-    width: 100px;
-    height: 100px;
+    width: 15px;
+    height: 45px;
     border-radius: 50%;
-    overflow: hidden;
+    //overflow: hidden;
     flex: none;
+	  display: none;
+	  @include from(l){
+		  display: block;
+	  }
   }
 
   &__data {
@@ -17,6 +21,7 @@
   &__name {
     font-weight: 700;
     font-family: $heading-font;
+
   }
 
   &__country {
@@ -92,7 +97,7 @@
     .user__avatar {
       width : 60px;
       height : 60px;
-      display : block;
+      //display : block;
     }
 
     .user__data {
