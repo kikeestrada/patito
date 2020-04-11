@@ -7,15 +7,11 @@ var _searchFilter = require('./modules/searchFilter');
 
 (function () {
 	(0, _topNav.topNav)();
-
 	if (document.body.classList.contains('home')) {
 		// functions here
-	} else if (document.body.classList.contains('page2')) {
+	} else if (document.body.classList.contains('portfolio')) {
 		// functions here
 		(0, _searchFilter.searchFilter)();
-	} else if (document.body.classList.contains('page3')) {
-		// functions here
-
 	}
 })();
 
