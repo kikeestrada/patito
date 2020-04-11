@@ -1,0 +1,11 @@
+div(class='ed-grid m-grid-2 l-grid-3 lg-grid-4 row-gap l-big-section')
+	-for(var i = 0; i < casos.length ; i++)
+		-var caso = casos[i]
+		div(class='card')
+			div(class='img-container s-ratio-16-9 s-radius-tr s-radius-tl')
+				img(src=caso.img)
+			div(class='card__data s-border s-radius-br s-radius-bl s-pxy-2')
+				div(class='t5 s-mb-2 s-center')=caso.description
+				div(class='s-justify')
+					a(href="#" class='button--ghost-alert button--tiny') Github
+					a(href="#" class='button--ghost-alert button--tiny') gh-pages

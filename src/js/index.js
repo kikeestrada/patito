@@ -2,14 +2,10 @@ import {topNav} from './modules/topNav'
 import {searchFilter} from './modules/searchFilter'
 (()=>{
 	topNav();
-
 	if (document.body.classList.contains('home')) {
 		// functions here
-	}else if (document.body.classList.contains('page2')) {
+	}else if (document.body.classList.contains('portfolio')) {
 		// functions here
 		searchFilter();
-	}else if (document.body.classList.contains('page3')) {
-		// functions here
-
 	}
 })();
