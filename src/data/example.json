@@ -2,95 +2,82 @@
 	"casos":
 		[
 			{
-				"img": "assets/img/pf-images/pf_77digital.png",
-				"title": "title1",
-				"description": "Description1.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_77digital.png",
+				"title"		: "77 Digital",
+				"source"	: "https://github.com/kikeestrada/portfolio77DigitalWebSite",
+				"live"		: "https://kikeestrada.github.io/portfolio77DigitalWebSite/"
 			},
 			{
-				"img": "assets/img/pf-images/pf_ahorrando.png",
-				"title": "title2",
-				"description": "Description2.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_ahorrando.png",
+				"title"		: "Ahorrando para tu futuro",
+				"source"	: "https://github.com/kikeestrada/portfolio-ahorrando",
+				"live"		: "https://kikeestrada.github.io/portfolio-ahorrando/"
 			},
 			{
-				"img": "assets/img/pf-images/pf_bootstrap.png",
-				"title": "title3",
-				"description": "Description3.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_bootstrap.png",
+				"title"		: "Bootstrap Website",
+				"source"	: "https://github.com/kikeestrada/portfolio-css-frameworks",
+				"live"	: "https://kikeestrada.github.io/portfolio-css-frameworks/bootstrap.html"
 			},
 			{
-				"img": "assets/img/pf-images/pf_cssvars.png",
-				"title": "title4",
-				"description": "Description4.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_cssvars.png",
+				"title"		: "CSS Vars Practice",
+				"source"	: "https://github.com/kikeestrada/portfolio-css-vars-theme",
+				"live"		: "https://kikeestrada.github.io/portfolio-css-vars-theme/index.html"
 			},
 			{
-				"img": "assets/img/pf-images/pf_esencialcr.png",
-				"title": "title5",
-				"description": "Description5.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_esencialcr.png",
+				"title"		: "Esencial CR Website",
+				"source"	: "https://github.com/kikeestrada/portfolioEsencialcrWebSite",
+				"live"		: "https://kikeestrada.github.io/portfolioEsencialcrWebSite/"
 			},
 			{
-				"img": "assets/img/pf-images/pf_fundation.png",
-				"title": "title6",
-				"description": "Description6.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_fundation.png",
+				"title"		: "Foundation Website",
+				"source"	: "https://github.com/kikeestrada/portfolio-css-frameworks",
+				"live"		: "https://kikeestrada.github.io/portfolio-css-frameworks/foundation.html"
 			},
 			{
-				"img": "assets/img/pf-images/pf_maratones.png",
-				"title": "title7",
-				"description": "Description7.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_maratones.png",
+				"title"		: "Maratones Website",
+				"source"	: "https://github.com/kikeestrada/portfolio-maratones",
+				"live"		: "https://kikeestrada.github.io/portfolio-maratones/"
 			},
 			{
-				"img": "assets/img/pf-images/pf_materialize.png",
-				"title": "title8",
-				"description": "Description8.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_materialize.png",
+				"title"		: "Materialize Website",
+				"source"	: "https://github.com/kikeestrada/portfolio-css-frameworks",
+				"live"		: "https://kikeestrada.github.io/portfolio-css-frameworks/materialize.html"
 			},
 			{
-				"img": "assets/img/pf-images/pf_nextjs.png",
-				"title": "title9",
-				"description": "Description9.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_nextjs.png",
+				"title"		: "Next JS - API",
+				"source"	: "https://github.com/kikeestrada/portfolio-blog-nextjs",
+				"live"		: "https://portfolio-blog-nextjs-1nro4mgk7.now.sh/"
 			},
 			{
-				"img": "assets/img/pf-images/pf_react_api.png",
-				"title": "title10",
-				"description": "Description10.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_react_api.png",
+				"title"		: "React JS API",
+				"source"	: "https://github.com/kikeestrada/portfolioReactConsumingApi",
+				"live"		: "https://kikeestrada.github.io/portfolioReactConsumingApi/"
 			},
 			{
-				"img": "assets/img/pf-images/pf_shopping_card.png",
-				"title": "title11",
-				"description": "Description11.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_shopping_card.png",
+				"title"		: "React Shopping Card",
+				"source"	: "https://github.com/kikeestrada/portfolioReactShopingCart",
+				"live"		: "https://kikeestrada.github.io/portfolioReactShopingCart/"
 			},
 			{
-				"img": "assets/img/pf-images/pf_vanilla_api_fetch.png",
-				"title": "title12",
-				"description": "Description12.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_vanilla_api_fetch.png",
+				"title"		: "Vanilla JS API Fetch",
+				"source"	: "https://github.com/kikeestrada/portfolioVanillaJsApiFetch",
+				"live"		: "https://kikeestrada.github.io/portfolioVanillaJsApiFetch/"
 			},
 			{
-				"img": "assets/img/pf-images/pf_villalapas.png",
-				"title": "title13",
-				"description": "Description13.",
-				"source-code": "#",
-				"live-code":"#"
+				"img"		: "assets/img/pf-images/pf_villalapas.png",
+				"title"		: "Villa Lapas Web Site",
+				"source"	: "https://github.com/kikeestrada/portfolioVillaLapasWebSite",
+				"live"		: "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
 			}
 
 		]

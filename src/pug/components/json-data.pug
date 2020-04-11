@@ -1,11 +1,23 @@
+mixin card(cardImage, cardTitle, cardSource, cardLive)
+	article(class='card class-item')
+		div(class='img-container s-ratio-16-9 s-radius-tr s-radius-tl')
+			img(src=cardImage)
+		div(class='card__data s-border s-radius-br s-radius-bl s-pxy-2')
+			div(class='t5 s-mb-2 s-center')=cardTitle
+			div(class='s-justify')
+				a(href=cardSource target='_blank' class='button--ghost-alert button--tiny') Github
+				a(href=cardLive target='_blank' class='button--ghost-alert button--tiny') gh-pages
+
+
+section(class='ed-container item-search')
+	div(class='ed-item')
+		h1 Search Filter
+	div(class='ed-item m-50 l-40')
+		input(type='search', id='searchInput', placeholder='search')
+div(class='ed-container')
+	div(class='ed-item')
+
 div(class='ed-grid m-grid-2 l-grid-3 lg-grid-4 row-gap l-big-section')
 	-for(var i = 0; i < casos.length ; i++)
 		-var caso = casos[i]
-		div(class='card')
-			div(class='img-container s-ratio-16-9 s-radius-tr s-radius-tl')
-				img(src=caso.img)
-			div(class='card__data s-border s-radius-br s-radius-bl s-pxy-2')
-				div(class='t5 s-mb-2 s-center')=caso.description
-				div(class='s-justify')
-					a(href="#" class='button--ghost-alert button--tiny') Github
-					a(href="#" class='button--ghost-alert button--tiny') gh-pages
+		+card(caso.img, caso.title, caso.source, caso.live)
