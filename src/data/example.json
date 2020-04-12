@@ -84,7 +84,30 @@
 				"title"		: "Pug Email Boilerplate",
 				"source"	: "https://github.com/kikeestrada/email-pug-boilerplate",
 				"live"		: "https://kikeestrada.github.io/email-pug-boilerplate/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_style_guide.png",
+				"title"		: "UI Components created by me",
+				"source"	: "https://github.com/kikeestrada/myStyleGuide",
+				"live"		: "https://kikeestrada.github.io/myStyleGuide"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_gulp_boilerplate.png",
+				"title"		: "Gulp Boilerplate",
+				"source"	: "https://github.com/kikeestrada/portfolio-gulp-boilerplate",
+				"live"		: "https://kikeestrada.github.io/portfolio-gulp-boilerplate"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_reveal.png",
+				"title"		: "UI Reveal Boilerplate",
+				"source"	: "https://github.com/kikeestrada/reveal",
+				"live"		: "https://kikeestrada.github.io/reveal"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_npm_boilerplate.png",
+				"title"		: "UI NPM Boilerplate",
+				"source"	: "https://github.com/kikeestrada/portfolio-npm-boilerplate",
+				"live"		: "https://kikeestrada.github.io/portfolio-npm-boilerplate"
 			}
-
 		]
 }
