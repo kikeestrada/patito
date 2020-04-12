@@ -78,6 +78,12 @@
 				"title"		: "Villa Lapas Web Site",
 				"source"	: "https://github.com/kikeestrada/portfolioVillaLapasWebSite",
 				"live"		: "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_email.png",
+				"title"		: "Pug Email Boilerplate",
+				"source"	: "https://github.com/kikeestrada/email-pug-boilerplate",
+				"live"		: "https://kikeestrada.github.io/email-pug-boilerplate/"
 			}
 
 		]

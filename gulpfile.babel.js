@@ -177,6 +177,11 @@ gulp.task('images-dev', () => {
 		.pipe(gulp.dest('./public/assets/img'))
 });
 
+gulp.task('documents-dev', () => {
+	gulp.src('./src/documents/**/**')
+		.pipe(gulp.dest('./public/assets/documents'))
+});
+
 gulp.task('css-dev-vendor', () => {
 	gulp.src('./src/vendors/prismjs.css')
 		.pipe(gulp.dest('./public/assets/css'))
@@ -203,12 +208,12 @@ gulp.task('sitemap', () => {
 		read: false
 	})
 		.pipe(sitemap({
-			siteUrl: 'https://kikeestrada.website' // remplazar por tu dominio
+			siteUrl: 'https://kikeestrada.github.io/myportfolio/' // remplazar por tu dominio
 		}))
 		.pipe(gulp.dest('./public'))
 });
 
-gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-dev', 'videos-dev', 'fonts-dev'], () => {
+gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-dev', 'videos-dev', 'fonts-dev', 'documents-dev'], () => {
 	server.init({
 		server: {
 			baseDir: './public'
