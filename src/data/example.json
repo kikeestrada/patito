@@ -108,6 +108,12 @@
 				"title"		: "UI NPM Boilerplate",
 				"source"	: "https://github.com/kikeestrada/portfolio-npm-boilerplate",
 				"live"		: "https://kikeestrada.github.io/portfolio-npm-boilerplate"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_webpack.png",
+				"title"		: "UI NPM Boilerplate",
+				"source"	: "https://github.com/kikeestrada/portfolio-webpack-boilerplate",
+				"live"		: "https://kikeestrada.github.io/portfolio-webpack-boilerplate"
 			}
 		]
 }
