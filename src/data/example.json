@@ -114,6 +114,12 @@
 				"title"		: "UI NPM Boilerplate",
 				"source"	: "https://github.com/kikeestrada/portfolio-webpack-boilerplate",
 				"live"		: "https://kikeestrada.github.io/portfolio-webpack-boilerplate"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_pwa.png",
+				"title"		: "My PWA",
+				"source"	: "https://github.com/kikeestrada/my-pwa",
+				"live"		: "https://kikeestrada.github.io/my-pwa"
 			}
 		]
 }
