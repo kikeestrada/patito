@@ -10,6 +10,8 @@
 		"scripts": "gulp scripts",
 		"images": "gulp images",
 		"sitemap": "gulp sitemap",
+		"dev" : "gulp dev",
+		"build" : "gulp build",
 		"deploy": "gh-pages -d public"
 	},
 	"author": "Enrique Estrada",

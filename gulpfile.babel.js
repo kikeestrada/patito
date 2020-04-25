@@ -177,11 +177,6 @@ gulp.task('images-dev', () => {
 		.pipe(gulp.dest('./public/assets/img'))
 });
 
-gulp.task('documents-dev', () => {
-	gulp.src('./src/documents/**/**')
-		.pipe(gulp.dest('./public/assets/documents'))
-});
-
 gulp.task('css-dev-vendor', () => {
 	gulp.src('./src/vendors/prismjs.css')
 		.pipe(gulp.dest('./public/assets/css'))
@@ -203,17 +198,27 @@ gulp.task('audios-dev', () => {
 		.pipe(gulp.dest('./public/assets/audio'))
 });
 
+gulp.task('manifest', () => {
+	gulp.src('./src/manifest.json')
+		.pipe(gulp.dest('./public/'))
+});
+
+gulp.task('sw', () => {
+	gulp.src('./src/sw.js')
+		.pipe(gulp.dest('./public/'))
+});
+
 gulp.task('sitemap', () => {
 	gulp.src('./public/**/*.html', {
 		read: false
 	})
 		.pipe(sitemap({
-			siteUrl: 'https://kikeestrada.github.io/myportfolio/' // remplazar por tu dominio
+			siteUrl: 'https://kikeestrada.github.io/my-pwa/' // remplazar por tu dominio
 		}))
 		.pipe(gulp.dest('./public'))
 });
 
-gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-dev', 'videos-dev', 'fonts-dev', 'documents-dev'], () => {
+gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-dev', 'videos-dev', 'fonts-dev', 'manifest', 'sw'], () => {
 	server.init({
 		server: {
 			baseDir: './public'
@@ -224,6 +229,8 @@ gulp.task('dev', ['styles-dev', 'pug-dev', 'scripts-dev', 'images-dev','audios-d
 	watch('./src/js/**/**', () => gulp.start('scripts-dev', server.reload));
 	watch('./src/pug/**/**', () => gulp.start('pug-dev', server.reload));
 	watch('./src/img/**/**', () => gulp.start('images-dev'))
+	watch('./src/manifest.json', () => gulp.start('manifest'))
+	watch('./src/sw.js', () => gulp.start('sw'))
 });
 
 gulp.task('cache', () => {

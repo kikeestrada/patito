@@ -8,16 +8,10 @@
 				"live"		: "https://kikeestrada.github.io/portfolio77DigitalWebSite/"
 			},
 			{
-				"img"		: "assets/img/pf-images/pf_ahorrando.png",
-				"title"		: "Ahorrando para tu futuro",
-				"source"	: "https://github.com/kikeestrada/portfolio-ahorrando",
-				"live"		: "https://kikeestrada.github.io/portfolio-ahorrando/"
-			},
-			{
 				"img"		: "assets/img/pf-images/pf_bootstrap.png",
 				"title"		: "Bootstrap Website",
 				"source"	: "https://github.com/kikeestrada/portfolio-css-frameworks",
-				"live"	: "https://kikeestrada.github.io/portfolio-css-frameworks/bootstrap.html"
+				"live"		: "https://kikeestrada.github.io/portfolio-css-frameworks/bootstrap.html"
 			},
 			{
 				"img"		: "assets/img/pf-images/pf_cssvars.png",

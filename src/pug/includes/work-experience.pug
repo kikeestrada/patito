@@ -1,13 +1,3 @@
-mixin user(name,avatar,countryCode, country)
-	.user
-		.user__avatar
-			img(src=`/assets/img/${avatar}`)
-		.user__data
-			.user__name=name
-			.user__country
-				img(src=`/assets/img/icon-flag-${countryCode}.svg`).user__flag
-				=country
-
 div(class='ed-container')
 	div(class='ed-item')
 		h2 Work Experience
@@ -23,8 +13,6 @@ section.l-section.diagonal-section
 			// Charla 1 - Jon
 			.talk.l-section
 				.talk__hour
-				.talk__speaker
-					+user('Description: ','icon-right.svg','', '')
 				.talk__info
 					h3 &nbspFront End Dev
 					p I give trainings in some technical institutes: CyberU, I support and maintain some projects
@@ -38,8 +26,6 @@ section.l-section.diagonal-section
 			// Charla 1 - Jon
 			.talk.l-section
 				.talk__hour
-				.talk__speaker
-					+user('Description: ','icon-right.svg','', '')
 				.talk__info
 					h3 &nbspFront End Dev
 					p I worked as Team Lead. We develop for betting sites. I enjoyed giving training
@@ -54,8 +40,6 @@ section.l-section.diagonal-section
 			// Charla 1 - Jon
 			.talk.l-section
 				.talk__hour
-				.talk__speaker
-					+user('Description: ','icon-right.svg','', '')
 				.talk__info
 					h3 &nbspFront End Dev
 					p I worked on a Front-End and Emails development team. I trained new
