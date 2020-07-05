@@ -1,6 +1,5 @@
 # Profile
-I am a Front End Developer, UI and UX with 8+ years of experience. I am pro-active and very responsible.
-Good communication skills, teamwork and leadership. I like constant growth, new knowledge and challenges.
-I have worked in many development projects and all the stages I saw the importance of teamwork and assertive
-communication; this is vital to find new and better solutions to problems working with agile methodologies like
-scrum
+I am a Front End Developer, UI and UX with 8+ years of experience, pro-active and very responsible.
+ Good communication skills, teamwork and leadership. I like constant growth, new knowledge and challenges.
+
+Results-oriented, dedicated to creating and optimizing interactive, user-friendly, and feature-rich websites. Leverage analytical skills and strong attention to detail in order to deliver original and efficient web solutions, provide technical knowledge and expertise, build new websites from start to finish, and successfully manage a team of other software professionals
