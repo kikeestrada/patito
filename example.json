@@ -1,0 +1,125 @@
+{
+	"casos":
+		[
+			{
+				"img"		: "assets/img/pf-images/pf_77digital.png",	
+				"title"		: "77 Digital",
+				"source"	: "https://github.com/kikeestrada/portfolio77DigitalWebSite",
+				"live"		: "https://kikeestrada.github.io/portfolio77DigitalWebSite/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_bootstrap.png",
+				"title"		: "Bootstrap Website",
+				"source"	: "https://github.com/kikeestrada/portfolio-css-frameworks",
+				"live"		: "https://kikeestrada.github.io/portfolio-css-frameworks/bootstrap.html"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_cssvars.png",
+				"title"		: "CSS Vars Practice",
+				"source"	: "https://github.com/kikeestrada/portfolio-css-vars-theme",
+				"live"		: "https://kikeestrada.github.io/portfolio-css-vars-theme/index.html"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_esencialcr.png",
+				"title"		: "Esencial CR Website",
+				"source"	: "https://github.com/kikeestrada/portfolioEsencialcrWebSite",
+				"live"		: "https://kikeestrada.github.io/portfolioEsencialcrWebSite/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_fundation.png",
+				"title"		: "Foundation Website",
+				"source"	: "https://github.com/kikeestrada/portfolio-css-frameworks",
+				"live"		: "https://kikeestrada.github.io/portfolio-css-frameworks/foundation.html"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_ahorrando.png",
+				"title"		: "Ahorrando Website",
+				"source"	: "https://github.com/kikeestrada/portfolio-ahorrando",
+				"live"		: "https://kikeestrada.github.io/portfolio-ahorrando"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_maratones.png",
+				"title"		: "Maratones Website",
+				"source"	: "https://github.com/kikeestrada/portfolio-maratones",
+				"live"		: "https://kikeestrada.github.io/portfolio-maratones/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_materialize.png",
+				"title"		: "Materialize Website",
+				"source"	: "https://github.com/kikeestrada/portfolio-css-frameworks",
+				"live"		: "https://kikeestrada.github.io/portfolio-css-frameworks/materialize.html"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_nextjs.png",
+				"title"		: "Next JS - API",
+				"source"	: "https://github.com/kikeestrada/portfolio-blog-nextjs",
+				"live"		: "https://portfolio-blog-nextjs-nhcpt6ktv.now.sh/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_react_api.png",
+				"title"		: "React JS API",
+				"source"	: "https://github.com/kikeestrada/portfolioReactConsumingApi",
+				"live"		: "https://kikeestrada.github.io/portfolioReactConsumingApi/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_shopping_card.png",
+				"title"		: "React Shopping Card",
+				"source"	: "https://github.com/kikeestrada/portfolioReactShopingCart",
+				"live"		: "https://kikeestrada.github.io/portfolioReactShopingCart/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_vanilla_api_fetch.png",
+				"title"		: "Vanilla JS API Fetch",
+				"source"	: "https://github.com/kikeestrada/portfolioVanillaJsApiFetch",
+				"live"		: "https://kikeestrada.github.io/portfolioVanillaJsApiFetch/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_villalapas.png",
+				"title"		: "Villa Lapas Web Site",
+				"source"	: "https://github.com/kikeestrada/portfolioVillaLapasWebSite",
+				"live"		: "https://kikeestrada.github.io/portfolioVillaLapasWebSite/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_email.png",
+				"title"		: "Pug Email Boilerplate",
+				"source"	: "https://github.com/kikeestrada/email-pug-boilerplate",
+				"live"		: "https://kikeestrada.github.io/email-pug-boilerplate/"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_style_guide.png",
+				"title"		: "UI Components created by me",
+				"source"	: "https://github.com/kikeestrada/myStyleGuide",
+				"live"		: "https://kikeestrada.github.io/myStyleGuide"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_gulp_boilerplate.png",
+				"title"		: "Gulp Boilerplate",
+				"source"	: "https://github.com/kikeestrada/portfolio-gulp-boilerplate",
+				"live"		: "https://kikeestrada.github.io/portfolio-gulp-boilerplate"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_reveal.png",
+				"title"		: "UI Reveal Boilerplate",
+				"source"	: "https://github.com/kikeestrada/reveal",
+				"live"		: "https://kikeestrada.github.io/reveal"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_npm_boilerplate.png",
+				"title"		: "UI NPM Boilerplate",
+				"source"	: "https://github.com/kikeestrada/portfolio-npm-boilerplate",
+				"live"		: "https://kikeestrada.github.io/portfolio-npm-boilerplate"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_webpack.png",
+				"title"		: "UI NPM Boilerplate",
+				"source"	: "https://github.com/kikeestrada/portfolio-webpack-boilerplate",
+				"live"		: "https://kikeestrada.github.io/portfolio-webpack-boilerplate"
+			},
+			{
+				"img"		: "assets/img/pf-images/pf_pwa.png",
+				"title"		: "My PWA",
+				"source"	: "https://github.com/kikeestrada/my-pwa",
+				"live"		: "https://kikeestrada.github.io/my-pwa"
+			}
+		]
+}
