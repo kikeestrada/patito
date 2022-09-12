@@ -1,9 +1,9 @@
 {
-	"name": "kikeestradadev",
+	"name": "boilerplatedemostration",
 	"version": "1.0.0",
 	"description": "Simple scafolding for statics web projects",
 	"main": "gulpfile.babel.js",
-	"homepage": "https://kikeestrada.github.io/kikeestradadev/",
+	"homepage": "https://kikeestrada.github.io/boilerplatedemostration/",
 	"scripts": {
 		"install": "npm install",
 		"start": "gulp",
